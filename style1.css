@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.title {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.titlesub {
+    font-size: 12px;
+}
+
+.game-info {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    border: 3px solid black;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
